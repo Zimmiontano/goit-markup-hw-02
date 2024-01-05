@@ -1,0 +1,95 @@
+/* основнв кольри 
+ Лого #000000 ,#2196F3,#FFFFFF
+ Основний колір тексту #212121
+ допоміжний текст #757575
+ background #2F303A
+ footer addres: 
+  rgba(255, 255, 255, 0.6)*/
+
+:root {
+  --primare-text-color: #212121;
+  --secondare-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-white-color: #ffffff;
+  --white-clear-color: rgba(255, 255, 255, 0.6);
+}
+/* Header nav*/
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--accent-color);
+}
+.header-nav .link {
+  color: var(--primare-text-color);
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #000000;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #000000;
+}
+.auth-nav .link {
+  color: var(--accent-color);
+}
+.auth-nav .phone {
+  color: var(--secondare-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Effective solutions  Hero*/
+.section-hero {
+  background-color: #2f303a;
+}
+.section-hero-title {
+  color: var(--main-white-color);
+}
+/* Features */
+.section-title {
+  color: var(--primare-text-color);
+}
+.text {
+  color: var(--secondare-text-color);
+}
+/* Our Works */
+.section-main-title {
+  color: var(--primare-text-color);
+}
+/* Our Team*/
+.section-main-title {
+  color: var(--primare-text-color);
+}
+.section-title {
+  color: var(--primare-text-color);
+}
+.text {
+  color: var(--secondare-text-color);
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #000000;
+}
+.logo {
+  color: var(--main-white-color);
+}
+.address {
+  color: var(--main-white-color);
+}
+.address-footer {
+  color: var(--white-clear-color);
+}
+/* Button */
+.button {
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+}
