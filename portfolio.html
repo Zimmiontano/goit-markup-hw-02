@@ -3,43 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
     <!-- Заголовок -->
     <header>
-      <a href="/index.html"> WebStudio </a>
+      <a href="/index.html" class="header-logo"> WebStudio </a>
       <nav>
-        <ul>
-          <li><a href="#">Студія</a></li>
-          <li><a href="/portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="header-nav list">
+          <li><a href="#" class="link">Студія</a></li>
+          <li><a href="/portfolio.html" class="link current">Портфоліо</a></li>
+          <li><a href="#" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+3809611111111">+38 096 111 11 11</a></li>
+      <ul class="auth-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+3809611111111" class="phone">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!--Фільтер  -->
-    <ul>
-      <li><a href="">Усі</a></li>
-      <li><a href="">Веб-сайти</a></li>
-      <li><a href="">Додатки</a></li>
-      <li><a href="">Дизайн</a></li>
-      <li><a href="">Маркетинг</a></li>
+    <ul class="portfolio-nav list">
+      <li><button class="button current">Усі</button></li>
+      <li><button class="button">Веб-сайти</button></li>
+      <li><button class="button">Додатки</button></li>
+      <li><button class="button">Дизайн</button></li>
+      <li><button class="button">Маркетинг</button></li>
     </ul>
     <!-- Портфоліо -->
-    <ul>
+    <ul class="works list">
       <li>
         <img
           src="./image/Technocrack.jpg"
           alt="Веб-сайт Технокряк"
           width="370"
         />
-        <b>Технокряк</b>
-        <p>Веб-сайт</p>
+        <b class="name">Технокряк</b>
+        <p class="text">Веб-сайт</p>
       </li>
       <li>
         <img
@@ -47,8 +54,8 @@
           alt="Дизайн Постер New Orlean vs Golden Star"
           width="370"
         />
-        <b>Постер New Orlean vs Golden Star</b>
-        <p>Дизайн</p>
+        <b class="name">Постер New Orlean vs Golden Star</b>
+        <p class="text">Дизайн</p>
       </li>
       <li>
         <img
@@ -56,18 +63,18 @@
           alt="Додаток Ресторан Seafood"
           width="370"
         />
-        <b>Ресторан Seafood</b>
-        <p>Додаток</p>
+        <b class="name">Ресторан Seafood</b>
+        <p class="text">Додаток</p>
       </li>
       <li>
         <img src="./image/Prime.jpg" alt=" Додаток Проєкт Prime" width="370" />
-        <b>Додаток Проєкт Prime</b>
-        <p>Додаток</p>
+        <b class="name">Додаток Проєкт Prime</b>
+        <p class="text">Додаток</p>
       </li>
       <li>
         <img src="./image/Boxes.jpg" alt="Додаток Проєкт Boxes" width="370" />
-        <b>Проєкт Boxes</b>
-        <p>Додаток</p>
+        <b class="name">Проєкт Boxes</b>
+        <p class="text">Додаток</p>
       </li>
       <li>
         <img
@@ -75,8 +82,8 @@
           alt="Веб-сайт Inspiration has no Borders"
           width="370"
         />
-        <b>Inspiration has no Borders</b>
-        <p>Веб-сайт</p>
+        <b class="name">Inspiration has no Borders</b>
+        <p class="text">Веб-сайт</p>
       </li>
       <li>
         <img
@@ -84,13 +91,13 @@
           alt="Дизайн Видання Limited Edition"
           width="370"
         />
-        <b>Видання Limited Editioк</b>
-        <p>Дизайн</p>
+        <b class="name">Видання Limited Editioк</b>
+        <p class="text">Дизайн</p>
       </li>
       <li>
         <img src="./image/LAB.jpg" alt="Маркетинг Проєкт LAB" width="370" />
-        <b>Проєкт LAB</b>
-        <p>Маркетинг</p>
+        <b class="name">Проєкт LAB</b>
+        <p class="text">Маркетинг</p>
       </li>
       <li>
         <img
@@ -98,18 +105,20 @@
           alt="Додаток Growing Business"
           width="370"
         />
-        <b>Growing Business</b>
-        <p>Додаток</p>
+        <b class="name">Growing Business</b>
+        <p class="text">Додаток</p>
       </li>
     </ul>
 
     <!-- Підвал -->
-    <footer>
-      <a href="/index.html">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a href="/index.html" class="footer-logo">WebStudio</a>
+      <address class="address">
         м. Київ, пр-т Лесі Українки, 26 <br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="mailto:info@devstudio.com" class="address-footer"
+          >info@devstudio.com</a
+        ><br />
+        <a href="tel:+380961111111" class="address-footer">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
