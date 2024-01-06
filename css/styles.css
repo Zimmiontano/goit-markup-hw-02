@@ -12,11 +12,15 @@
   --accent-color: #2196f3;
   --main-white-color: #ffffff;
   --white-clear-color: rgba(255, 255, 255, 0.6);
+  --button-color: #f5f4fa;
 }
 /* Header nav*/
 .header-logo:hover,
 .header-logo:focus {
   color: var(--accent-color);
+}
+.header-logo {
+  color: var(--primare-text-color);
 }
 .header-nav .link {
   color: var(--primare-text-color);
@@ -77,9 +81,10 @@
 }
 .footer-logo:hover,
 .footer-logo:focus {
-  color: #000000;
+  color: var(--accent-color);
 }
-.logo {
+
+.footer-logo {
   color: var(--main-white-color);
 }
 .address {
@@ -90,6 +95,22 @@
 }
 /* Button */
 .button {
+  color: var(--primare-text-color);
+  background-color: var(--button-color);
+}
+/*  Portfolio */
+.portfolio-nav .button:hover,
+.portfolio-nav .button:focus {
+  color: #000000;
+}
+.button {
+  color: var(--primare-text-color);
+  background-color: var(--button-color);
+}
+.button.current {
   color: var(--main-white-color);
   background-color: var(--accent-color);
+}
+.name {
+  color: var(--primare-text-color);
 }
