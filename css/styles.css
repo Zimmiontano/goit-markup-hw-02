@@ -111,6 +111,7 @@
   color: var(--main-white-color);
   background-color: var(--accent-color);
 }
+
 .name {
   color: var(--primare-text-color);
 }
