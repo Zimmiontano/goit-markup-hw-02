@@ -14,6 +14,10 @@
   --white-clear-color: rgba(255, 255, 255, 0.6);
   --button-color: #f5f4fa;
 }
+body {
+  background-color: var(--main-white-color);
+  color: var(--primare-text-color);
+}
 /* Header nav*/
 .header-logo:hover,
 .header-logo:focus {
