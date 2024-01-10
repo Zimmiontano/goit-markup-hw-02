@@ -13,6 +13,7 @@
   --main-white-color: #ffffff;
   --white-clear-color: rgba(255, 255, 255, 0.6);
   --button-color: #f5f4fa;
+  --background-color: #f5f4fa;
 }
 body {
   background-color: var(--main-white-color);
@@ -53,16 +54,20 @@ body {
 }
 .header-nav .link:hover,
 .header-nav .link:focus {
-  color: #000000;
+  color: var(--accent-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #000000;
+  color: var(--accent-color);
 }
 .auth-nav .link {
-  color: var(--accent-color);
+  color: var(--secondare-text-color);
 
   text-decoration: none;
+}
+.auth-nav .phone:hover,
+.auth-nav .phone:focus {
+  color: var(--accent-color);
 }
 .auth-nav .phone {
   color: var(--secondare-text-color);
@@ -89,6 +94,18 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+}
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
 }
 .button-hero {
   background-color: var(--accent-color);
@@ -120,11 +137,14 @@ body {
   letter-spacing: 0.03em;
 }
 /* Our Works */
-.section-main-title {
+.section-team-main-title {
   color: var(--primare-text-color);
 }
 /* Our Team*/
-.section-main-title {
+.section-team {
+  background-color: var(--background-color);
+}
+.section-team-main-title {
   color: var(--primare-text-color);
 
   font-size: 36px;
@@ -133,11 +153,12 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.section-title {
+.section-team-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .text {
@@ -147,6 +168,7 @@ body {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 /* Footer */
 .footer {
@@ -181,6 +203,10 @@ body {
 
   text-decoration: none;
 }
+.address-footer:hover,
+.address-footer:focus {
+  color: var(--accent-color);
+}
 .address-footer {
   color: var(--white-clear-color);
 
@@ -195,13 +221,12 @@ body {
 .button {
   color: var(--primare-text-color);
   background-color: var(--button-color);
-
-  /* font-family: inherit; */
 }
 /*  Portfolio */
 .portfolio-nav .button:hover,
 .portfolio-nav .button:focus {
-  color: #000000;
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
 }
 .button {
   color: var(--primare-text-color);
