@@ -95,13 +95,13 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
 }
-.section-hero {
+/* .section-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 600px;
-}
+} */
 .button-hero:hover,
 .button-hero:focus {
   background-color: var(--accent-color);
@@ -116,6 +116,16 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
+
+  margin-right: 692px;
+  margin-left: 692px;
+
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+
+  white-space: nowrap;
 }
 
 /* Features */
