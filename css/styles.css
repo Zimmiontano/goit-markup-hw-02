@@ -280,8 +280,6 @@ body {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  text-decoration: none;
 }
 .text-portfolio {
   color: var(--secondare-text-color);
