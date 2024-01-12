@@ -22,6 +22,9 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
 }
+a {
+  text-decoration: none;
+}
 /* Header nav*/
 .header-logo:hover,
 .header-logo:focus {
@@ -275,7 +278,6 @@ body {
 /* works */
 .name {
   color: var(--primare-text-color);
-
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
